@@ -12,7 +12,7 @@ public final class UserBuilder {
     private Timestamp allTimeParking;
     private Set<Role> roles;
 
-    private UserBuilder() {
+    public UserBuilder() {
     }
 
     public static UserBuilder anUser() {
